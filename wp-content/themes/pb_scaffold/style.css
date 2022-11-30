@@ -1,0 +1,25 @@
+/*
+Theme Name: Pb Scaffold
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: CCJ
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 0.1
+License: MIT
+License URI: http://opensource.org/licenses/MIT
+Text Domain: pb-scaffold
+Tags: scaffold
+*/
+.entry-cover-image{
+  height:500px;
+  position:relative;
+  background-size:cover;
+  background-attachment:fixed;
+  background-image:url("https://picsum.photos/500/500/?random=10");
+}
+.entry-title{
+  position: absolute;
+  bottom:8px;
+  left:8px;
+  color:white;
+}
